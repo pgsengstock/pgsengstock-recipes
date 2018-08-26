@@ -8,6 +8,11 @@ and extracts the PKG.
 </string>
     <key>Identifier</key>
     <string>com.github.pgsengstock.pkg.davinciresolve15</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>DaVinciResolve15</string>
+    </dict>
     <key>ParentRecipe</key>
     <string>com.github.pgsengstock.download.davinciresolve15</string>
     <key>Process</key>
@@ -41,6 +46,8 @@ and extracts the PKG.
         <dict>
           <key>source_pkg</key>
           <string>%found_filename%/*.pkg</string>
+          <key>pkg_path</key>
+          <string>%NAME%.pkg</string>
         </dict>
       </dict>
     </array>
