@@ -46,7 +46,7 @@ Notably, REG_STATE and REG_COUNTRY must contain sane values:
     <array>
         <dict>
             <key>Processor</key>
-            <string>BlackMagicURLProvider</string>
+            <string>com.github.timsutton.download.davinciresolve14/BlackMagicURLProvider</string>
             <key>Arguments</key>
             <dict>
                 <key>product_name_pattern</key>
